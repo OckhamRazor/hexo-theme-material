@@ -2,6 +2,9 @@ sidebar:
     homepage: "主页"
     archive: "归档"
     article_num: "文章总数"
+    world_lines: "世界线"
+    gallery: "摄影"
+    about: "关于我"
 post:
     visitor: "访客"
     views: "浏览量"

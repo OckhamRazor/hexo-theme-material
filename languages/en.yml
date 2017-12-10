@@ -2,6 +2,9 @@ sidebar:
     homepage: "Home"
     archive: "Archives"
     article_num: "Number of articles"
+    world_lines: "World lines"
+    gallery: "Gallery"
+    about: "About me"
 post:
     visitor: "Visitors"
     views: "Views"
