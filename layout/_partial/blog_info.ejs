@@ -26,9 +26,9 @@
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
             <% for (var i in theme.sidebar.pages) { %>
-                <a class="index_share-link" href="<%= theme.sidebar.pages[i].link || '#' %>" title="<%= i %>">
+                <a class="index_share-link" href="<%= theme.sidebar.pages[i].link || '#' %>" title="<%= __('sidebar.' + i) %>">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
-                        <%= i %>
+                        <%= __('sidebar.' + i) %>
                     </li>
                 </a>
             <% } %>

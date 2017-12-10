@@ -85,11 +85,11 @@
     <!-- Pages  -->
     <% for (var i in theme.sidebar.pages){ %>
         <li>
-            <a href="<%= theme.sidebar.pages[i].link %>" title="<%= i %>">
+            <a href="<%= theme.sidebar.pages[i].link %>" title="<%= __('sidebar.' + i) %>">
                 <% if(theme.sidebar.pages[i].icon){ %>
                     <i class="material-icons sidebar-material-icons"><%= theme.sidebar.pages[i].icon %></i>
                 <% } %>
-                <%= i %>
+                <%= __('sidebar.' + i) %>
             </a>
         </li>
         <% if(theme.sidebar.pages[i].divider === true) { %>
